@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: "Lato", "san-serif";
+    font-size: 20px;
+    background-color: #ffffff;
+    width: 1070px;
+    margin-left: 170px;
+    
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+/*-----------------------------------------------*/
+/*----------------Chỉnh phần header--------------*/
+/*-----------------------------------------------*/
+
+.header {
+    border: 1px solid #444444;
+    display: inline-block;
+    padding: 10px;
+    width: 900px;
+    background-color: #444444;
+    margin-bottom: 20px;
+}
+
+.list_button {
+    float: right;
+    width: 390px;
+}
+
+
+.text_header{
+    font-size: 20px;
+    float: left;
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+
+.button-header {
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.button-header:hover{
+    color: #ffffff;
+}
+
+/*-----------------------------------------------*/
+/*----------------Chỉnh phần content1------------*/
+/*-----------------------------------------------*/
+
+.content_1{
+    float: left;
+    margin-left: 20px;
+}
+
+.list_category li{
+    border: 1px solid #BBBBBB;
+    display: block;
+    width: 10rem;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.category-button{
+    text-decoration: none;
+    color: #0099FF;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+/*-----------------------------------------------*/
+/*----------------Chỉnh phần content2------------*/
+/*-----------------------------------------------*/
+
+.content_2{
+    float: right;
+    width: 800px;
+}
+
+.product_row1,.product_row2{
+    display: grid;
+    grid-template-columns: 11rem 11rem 11rem; 
+    
+    
+}
+
+
+.image-content-2{
+    margin-bottom: 20px;
+    width: 650px;
+}
+
+.product-image{
+    width: 208.5px;
+    border-radius: 5px;
+    
+}
+
+h3{
+    color: #0099FF;
+    margin-bottom: 15px;
+}
+
+.content_2 div{
+    margin-bottom: 15px;
+}
+
+.text_product{
+    margin-bottom: 80px;
+    color: black;
+}
+
+.product_row1 li , .product_row2 li{
+    border: 1.3px solid #BBBBBB;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+
+.product_row1 li h3,.product-cost,.text_product,
+.product_row2 li h3,.product-cost,.text_product{
+    margin-left: 20px;
+}
+
+.button{
+    text-decoration: none;
+}
+
+.product-cost{
+    color: black;
+}
+
+i{
+    font-size: 10px;
+    color: #444444;
+    margin-top: 15px;
+}
+
+.list-icon{
+    margin-left: 20px;
+}
