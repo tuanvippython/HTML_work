@@ -7,13 +7,11 @@ html {
     font-family: "Lato", "san-serif";
     font-size: 20px;
     background-color: #ffffff;
-    width: 1070px;
+    width: 960px;
     margin-left: 170px;
+    border: 5px solid;
     
 }
-
-
-
 
 ul{
     list-style: none;
@@ -22,22 +20,16 @@ ul{
 p{
     font-size: 16px;
 }
-
-
-
-
-
-
 /*-----------------------------------------------*/
 /*----------------Chỉnh phần header--------------*/
 /*-----------------------------------------------*/
 
 .header {
-    border: 1px solid #444444;
+    border: 1px solid #444;
     display: inline-block;
     padding: 10px;
-    width: 900px;
-    background-color: #444444;
+    width: 940px;
+    background-color: #444;
     margin-bottom: 20px;
 }
 
@@ -46,13 +38,11 @@ p{
     width: 390px;
 }
 
-
-.text_header{
+.text_header {
     font-size: 20px;
     float: left;
-    color: #ffffff;
+    color: #fff;
     margin-left: 10px;
-
 }
 
 .button-header {
@@ -61,33 +51,39 @@ p{
     color: gray;
 }
 
-.button-header:hover{
-    color: #ffffff;
+.button-header:hover {
+    color: #fff;
 }
 
 /*-----------------------------------------------*/
 /*----------------Chỉnh phần content1------------*/
 /*-----------------------------------------------*/
-
-.content_1{
+.content_1 {
     float: left;
     margin-left: 20px;
 }
 
-.list_category li{
-    border: 1px solid #BBBBBB;
-    display: block;
+.list_category {
+    display: flex;
+    flex-direction: column;
+    background-color: #BBB;
     width: 10rem;
-    padding: 10px;
     border-radius: 2px;
+    font-size: 15px;
 }
 
-.category-button{
+.list_category div {
+    background-color: #fff;
+    margin: 0.4px;
+    padding: 10px;
+}
+
+.category-button {
     text-decoration: none;
     color: #0099FF;
 }
 
-h2{
+h2 {
     margin-bottom: 1rem;
 }
 
@@ -97,31 +93,40 @@ h2{
 
 .content_2{
     float: right;
-    width: 800px;
+    width: 693px;
 }
 
-.product_row1,.product_row2{
-    display: grid;
-    grid-template-columns: 11rem 11rem 11rem; 
-    
-    
+.product_row {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    width: 200px;
 }
 
+.product_row .product{
+    background-color: #f1f1f1;
+    margin: 1px;
+    font-size: 20px;
+    margin-right: 30px; /* Điều chỉnh khoảng cách giữa các ô */
+    border: 1px solid #BBBBBB; /* Viền xung quanh màu xanh */ 
+    border-radius: 5px;
+}
 
 .image-content-2{
     margin-bottom: 20px;
-    width: 650px;
+    width: 692px;
 }
 
 .product-image{
     width: 208.5px;
     border-radius: 5px;
-    
+    margin-bottom: 20px;
 }
 
 h3{
     color: #0099FF;
     margin-bottom: 15px;
+    margin-left: 20px;
 }
 
 .content_2 div{
@@ -155,11 +160,36 @@ h3{
 }
 
 i{
-    font-size: 10px;
+    font-size: 8px;
     color: #444444;
     margin-top: 15px;
 }
 
 .list-icon{
     margin-left: 20px;
+}
+
+/*---------------------------------------------------*/
+/*------------------Chỉnh phần footer----------------*/
+/*---------------------------------------------------*/
+
+.footer {
+    background-color: #444444; /* Màu nền của footer */
+    color: #ffffff; /* Màu văn bản trong footer */
+    width: 900px;
+    padding: 30px;
+    text-align: center;
+    clear: both; /* Đảm bảo rằng phần footer không bị xung đột với các phần khác */
+}
+
+.text-footer a{
+    color: #0099FF;
+    text-decoration: none;
+}
+
+span{
+    border: 1.5px solid;
+    border-radius: 50%;
+    color: #fff;
+    padding: 1px;
 }
